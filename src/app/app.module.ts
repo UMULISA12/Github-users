@@ -10,6 +10,7 @@ import { UserComponent } from './user/user.component';
 import { OutputsComponent } from './outputs/outputs.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 // import { NgProgressModule } from '@ngx-progressbar/core';
 // import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
@@ -20,6 +21,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
     UserComponent,
     SearchFormComponent,
     StrikethroughDirective,
+    DateCountPipe,
   ],
   
   imports: [

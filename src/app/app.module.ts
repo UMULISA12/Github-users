@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { OutputsComponent } from './outputs/outputs.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 // import { NgProgressModule } from '@ngx-progressbar/core';
 // import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
@@ -18,6 +19,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
     AppComponent,
     UserComponent,
     SearchFormComponent,
+    StrikethroughDirective,
   ],
   
   imports: [

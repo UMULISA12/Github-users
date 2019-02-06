@@ -11,7 +11,8 @@
     
 </div> -->
 <!-- <app-search-form></app-search-form> -->
-
+<div class="container">
+<div class="all">
 <div class="input-form">
     <input [(ngModel)] = "userName" placeholder="search...">
     
@@ -19,9 +20,11 @@
     </div>
 <br>
 <p><img src={{user.avatar_url}}></p>
-<p appStrikethrough><b>Name:</b> {{user.name}} added on {{user.completeDate|date}}</p>
-<p appStrikethrough><b>Followers:</b> {{user.followers}} added on {{user.completeDate|date}}</p>
-<p appStrikethrough><b>Following:</b> {{user.following}} added on {{user.completeDate|date}}</p>
-<p appStrikethrough><b>Public repositories:</b> {{user.public_repos}} added on {{user.completeDate|date}}</p>
-<p appStrikethrough><b>location:</b> {{user.location}} added on {{user.completeDate|date}}</p>
+<p appStrikethrough><b>Name:</b> {{user.name}} added on {{user.completeDate|date}} &nbsp;,{{user.completeDate|dateCount}} days passed</p>
+<p appStrikethrough><b>Followers:</b> {{user.followers}} added on {{user.completeDate|date}} &nbsp;,{{user.completeDate|dateCount}} days passed</p>
+<p appStrikethrough><b>Following:</b> {{user.following}} added on {{user.completeDate|date}} &nbsp;,{{user.completeDate|dateCount}} days passed</p>
+<p appStrikethrough><b>Public repositories:</b> {{user.public_repos}} added on {{user.completeDate|date}} &nbsp;,{{user.completeDate|dateCount}} days passed</p>
+<p appStrikethrough><b>location:</b> {{user.location}} added on {{user.completeDate|date}} &nbsp;,{{user.completeDate|dateCount}} days passed</p>
+</div>
 
+</div>

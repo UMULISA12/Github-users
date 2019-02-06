@@ -44,7 +44,7 @@ export class apiRequestService {
            resolve()
 
      },error=>{
-       this.user= new User('https://avatars3.githubusercontent.com/u/45567374?v=4','Alice UMULISA',0,0,18,'KIGALI RWANDA',new Date(2018,3,14))
+       this.user= new User('https://avatars3.githubusercontent.com/u/45567374?v=4','Alice UMULISA',0,0,18,'KIGALI RWANDA',new Date(2019,2,6))
        reject(error)
 
      }

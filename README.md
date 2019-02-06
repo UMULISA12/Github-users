@@ -1,28 +1,17 @@
-# GithubUsers
+## Project name
+GithubUsers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+## Author
+Alice UMULISA
 
-## Development server
+Description of project
+This is a web app which helps end users to read some emotional and inspiratinal quotes, and it enables users to share their favorite quotes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Project setup instructions
+Web browser Internet Text-editor
 
-## Code scaffolding
+link to live site on GitHub Pages
+https://umulisa12.github.io/Quotes-app/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# Github-users
+copyright and license information
+This work is licensed under MIT License © 2018 Quotes-app. All Rights Reserved

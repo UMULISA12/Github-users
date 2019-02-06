@@ -1,0 +1,27 @@
+<!-- <ng-progress></ng-progress> -->
+<!-- <h1>My Goals</h1>
+<div class="container"> -->
+
+    <!-- <div class="row">
+        <blockuser class="text-center text-lg">
+            <p>{{users.login}}</p>
+            <footer><cite>{{users.followers}}</cite></footer>
+        </blockuser>
+    </div>
+    
+</div> -->
+<!-- <app-search-form></app-search-form> -->
+
+<div class="input-form">
+    <input [(ngModel)] = "userName" placeholder="search...">
+    
+    <button (click)="submitInput()">Search</button>
+    </div>
+<br>
+<p><img src={{user.avatar_url}}></p>
+<p><b>Name:</b> {{user.name}}</p>
+<p><b>Followers:</b> {{user.followers}}</p>
+<p><b>Following:</b> {{user.following}}</p>
+<p><b>Public repositories:</b> {{user.public_repos}}</p>
+<p><b>location:</b> {{user.location}}</p>
+

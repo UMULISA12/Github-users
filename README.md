@@ -5,7 +5,7 @@ GithubUsers
 Alice UMULISA
 
 ## Description of project
-This is a web app which helps end users to read some emotional and inspiratinal quotes, and it enables users to share their favorite quotes.
+This is a web app which helps end users from github to access some information of github users, like their public repositories,
 
 ## Project setup instructions
 Web browser Internet Text-editor
